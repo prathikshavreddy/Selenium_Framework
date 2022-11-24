@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="RegressionTest">
+    <classes>
+      <class name="testcases.Tetsng_Register_TC"/>
+       <class name="testcases.Testng_Login_TC"/>
+      <class name="testcases.Tetsng_Search_TC"/>
+       <class name="testcases.Testng_Computers_Accessories"/>
+      <class name="testcases.Testng_AdvanceSearch"/>
+     
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

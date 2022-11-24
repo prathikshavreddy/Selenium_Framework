@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+    <class name="POM_TestCases.DemoWebShop_RegisterTest"/>
+       <class name="POM_TestCases.DemoWebShop_LoginTest"/>
+       <class name="POM_TestCases.DWS_AdvanceSearchTest"/>
+       <class name="POM_TestCases.DWS_SearchTest"/>
+      <class name="POM_TestCases.DWS_ApparrelTest"/>
+      <class name="POM_TestCases.DWS_DigitalDownloadsTest"/>
+      <class name="POM_TestCases.DWS_ElectronicsTest"/>
+      <class name="POM_TestCases.DWS_ShoppingCartTest"/>
+      <class name="POM_TestCases.DWS_NewsletterSubscribeTest"/>
+      <class name="POM_TestCases.DWS_JewelryTest"/>
+      <class name="POM_TestCases.DWS_VottingPollTest"/>
+      <class name="POM_TestCases.DWS_BooksTest"/>
+      <class name="POM_TestCases.DWS_WishlistTest"/>
+      <class name="POM_TestCases.DWS_ComputersTest"/>
+      <class name="POM_TestCases.DWS_GiftCardsTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
